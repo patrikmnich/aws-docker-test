@@ -1,0 +1,2 @@
+CREATE USER another_user WITH PASSWORD 'heslo';
+ALTER USER user1 WITH SUPERUSER;
