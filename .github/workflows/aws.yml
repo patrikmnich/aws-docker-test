@@ -7,8 +7,8 @@ on:
     branches: [ "main" ]
 
 jobs:
-  deploy:
-    name: Deploy
+  amazon_ecr_push:
+    name: Amazon ECR push
     runs-on: ubuntu-latest
 
     steps:
